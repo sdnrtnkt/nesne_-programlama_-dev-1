@@ -1,14 +1,3 @@
-class Kitap:
-    def __init__(self,isim,sayfa_sayisi):
-        self.isim = isim
-        self.sayfa_sayisi = sayfa_sayisi
-    def sayfa_ekle(self,yeni_sayfa):
-        self.sayfa_sayisi +=yeni_sayfa
-    def bilgi(self):
-        print(f"Kitap:{self.isim} Sayfa: {self.sayfa_sayisi}")
-kitap1=Kitap("harry potter",59)
-kitap1.sayfa_ekle(100)
-kitap1.bilgi()
 class Urun:
     def __init__(self,isim,fiyat,stok):
         self.isim = isim
